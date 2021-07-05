@@ -1,6 +1,6 @@
 import pandas as pd
 
-filepath = "kaggle/input/day2_exercise_iowa_home_data/train.csv"
+filepath = "kaggle/input/iowa_home_data/train.csv"
 home_data = pd.read_csv(filepath)
 
 # describe for all columns
