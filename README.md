@@ -10,7 +10,7 @@ Thanks to this diagram in Francois Chollet's book Deep Learning with Python - i 
 Image link: references\deeplearning-simpleformat.jpg
 Exercise - Tried predict house prices using keras sequential, optimizer sgd and loss mean_squared_error 
 
-**Kaggle - Intro to ML - Lesson3 **
+**Kaggle - Intro to ML - Lesson3**
 Got introduced to scikit-learn, DecisionTreeRegressor model. 
 Exercise - Using sklearn tree - DecisionTreeRegressor to predict Iowa home sale price. 
 Followed these steps to define, fit, predict and evaluate. 
