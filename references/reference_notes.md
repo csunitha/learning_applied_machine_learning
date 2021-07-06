@@ -1,4 +1,4 @@
-# Summary of items worth reminding
+# Summary of items worth revision
 
 #### DataFrame
 A dataframe is datastructure in Pandas that holds the type of data you might think as a table. 
@@ -25,10 +25,16 @@ Further steps to improve score
     - Combine multiple models (Ensemble)
 - Learn from others code and ideas
 
+#### MAE (mean_absolute_error)
+To summarize the model quality in single metric through MAE. This value will say that predictions are off by that much value.  
+
+#### Model Validation 
+Model validation is to measure the quality of the model. Measuring model quality is the key to iteratively improving the model . One such way to do so to summarize model quality into a single metric MAE (mean_absolute_error)
+
 #### Pandas
 Pandas is the primary tool data scientist use for exploring and manipulating data 
 
-#### skikit-learn
+#### scikit-learn
 scikit-learn is easily the most popular library for modelling the types of data typically stored in DataFrames.
 
 #### Steps in building and using a model
@@ -37,3 +43,5 @@ scikit-learn is easily the most popular library for modelling the types of data 
 - Predict
 - Evaluate - determine the accuracy of model's prediction
 
+#### Validation Data
+Model's practical value comes from making predictions on new data. we measure performance on data that wasn't used to build the model. The most straightforward way to do this is to exclude some data from model building process and then use these to test the model's accuracy on data it hasn't seen before. This data is called validation data
