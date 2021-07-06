@@ -1,13 +1,20 @@
 # A repository to capture Applied ML learning journey 
 ## Daily Progress 
 
+### Day 4
+**Kaggle - Intro to ML - Lesson4**
+- Model Validation
+- Train Test Split
+- MAE (Mean_Absolute_Error)
+Exercise using sklearn.metrics mean_absolute_error, sklearn.model_selection train_test_split
+
 ### Day 3
 **TensorFlow - Machine Learning Foundations - ep 1.**
 - Keras Framework - Layers, Neurons, dense 
 - Installed tensorflow 
 - The core of how a network learns is in these 2 parameters - optimizer and loss. 
 Thanks to this diagram in Francois Chollet's book Deep Learning with Python - i could clearly understand.
-Image link: references\deeplearning-simpleformat.jpg
+Image link: [![deeplearning-simpleformat](/references\deeplearning-simpleformat.jpg "Deep learning in simple format")]
 Exercise - Tried predict house prices using keras sequential, optimizer sgd and loss mean_squared_error 
 
 **Kaggle - Intro to ML - Lesson3**

@@ -2,15 +2,20 @@
 
 ## Links of study material I used during this learning process
 
-1. Kaggle: Intro to Machine learning 
-https://www.kaggle.com/learn/intro-to-machine-learning
+| Content                                    | Link                                                                        |
+| ----------------------------------------   | ------------------------------------------------------------------------    |
+| Kaggle: Intro to Machine learning          | https://www.kaggle.com/learn/intro-to-machine-learning                      |
+| TensorFlow: Machine Learning Foundations   | https://www.youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV    |
+| Machine Learning by Stanford University    | https://www.coursera.org/learn/machine-learning                             |
 
-2. TensorFlow: Machine Learning Foundations
-https://www.youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV
-
-3. Easy Reference for Maths concepts 
-https://www.mathsisfun.com/ 
-
+## Links for future learning / regular reading 
+1. Microsoft: Machine Learning for Beginners - A Curriculum 
+   aka.ms/ml-beginners
+2. https://machinelearningmastery.com/
+3. https://bdtechtalks.com/ 
+4. https://www.fast.ai/
+5. Easy Reference for Maths concepts - https://www.mathsisfun.com
+6. https://online.stanford.edu/artificial-intelligence/free-content 
 
 ## Books
 
