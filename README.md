@@ -1,6 +1,17 @@
 # A repository to capture Applied ML learning journey 
 ## Daily Progress 
 
+### Day 5
+**Coursera - Week1**  
+Definition of ML, types of ML - supervised and unsupervised.   
+Supervised learning - right answer.  
+Regression - predict continuous value output.  
+Classification - Discrete value output.  
+
+**Kaggle - Intro to ML - Lesson4**
+- underfitting and overfitting 
+- finding the optimum 'max_leaf_nodes' to be set for DecisionTreeRegressor model using mae
+
 ### Day 4
 **Kaggle - Intro to ML - Lesson4**
 - Model Validation
@@ -14,10 +25,10 @@ Exercise using sklearn.metrics mean_absolute_error, sklearn.model_selection trai
 - Installed tensorflow 
 - The core of how a network learns is in these 2 parameters - optimizer and loss. 
 Thanks to this diagram in Francois Chollet's book Deep Learning with Python - i could clearly understand.
-Image link: [![deeplearning-simpleformat](/references\deeplearning-simpleformat.jpg "Deep learning in simple format")]
+Image link: [![deeplearning-simpleformat](/references/deeplearning-simpleformat.jpg "Deep learning in simple format")]
 Exercise - Tried predict house prices using keras sequential, optimizer sgd and loss mean_squared_error 
 
-**Kaggle - Intro to ML - Lesson3**
+**Kaggle - Intro to ML - Lesson3**  
 Got introduced to scikit-learn, DecisionTreeRegressor model. 
 Exercise - Using sklearn tree - DecisionTreeRegressor to predict Iowa home sale price. 
 Followed these steps to define, fit, predict and evaluate. 
