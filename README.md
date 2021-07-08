@@ -1,6 +1,16 @@
 # A repository to capture Applied ML learning journey 
 ## Daily Progress 
 
+### Day 6  
+**Coursera - Week1**  
+Unsupervised learning  
+Clustering  
+Non-clustering - cocktail party algorithm  
+Week1 - Introduction section - intro to ml, supervised learning and unsupervised learning
+
+**Kaggle - Intro to ML - Lesson6**  
+RandomForestRegressor 
+
 ### Day 5
 **Coursera - Week1**  
 Definition of ML, types of ML - supervised and unsupervised.   
@@ -8,7 +18,7 @@ Supervised learning - right answer.
 Regression - predict continuous value output.  
 Classification - Discrete value output.  
 
-**Kaggle - Intro to ML - Lesson4**
+**Kaggle - Intro to ML - Lesson5**  
 - underfitting and overfitting 
 - finding the optimum 'max_leaf_nodes' to be set for DecisionTreeRegressor model using mae
 
