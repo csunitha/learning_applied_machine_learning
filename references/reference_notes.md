@@ -6,6 +6,9 @@ The effort to automate intellectual tasks normally performed by humans
 #### Classification 
 In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories. 
 
+#### Clustering  
+Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
+
 #### DataFrame
 A dataframe is datastructure in Pandas that holds the type of data you might think as a table. 
 
@@ -43,11 +46,18 @@ max_leaf_nodes argument in skilearn DecisionTreeRegressor model provides a very 
 #### Model Validation 
 Model validation is to measure the quality of the model. Measuring model quality is the key to iteratively improving the model . One such way to do so to summarize model quality into a single metric MAE (mean_absolute_error)
 
+#### Non-clustering
+Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
+
 #### Overfitting
 Where a model matches the training data almost perfectly, but does poorly in validation and other new data. 
 
 #### Pandas
 Pandas is the primary tool data scientist use for exploring and manipulating data 
+
+#### RandomTreeRegressor  
+The random forest uses many trees, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters. If you keep modeling, you can learn more models with even better performance, but many of those are sensitive to getting the right parameters.  
+scikit ref: `from sklearn.ensemble import RandomForestRegressor`
 
 #### Regression
 In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.
@@ -67,6 +77,11 @@ Supervised learning problems are categorized into "regression" and "classificati
 
 #### Underfitting
 When a model fails to capture important distinctions and patterns in the data, so it performs poorly even in training data that is called underfitting. 
+
+#### Unsupervised learning 
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
+We can derive this structure by clustering the data based on relationships among the variables in the data.  
+With unsupervised learning there is no feedback based on the prediction results.
 
 #### Validation Data
 Model's practical value comes from making predictions on new data. we measure performance on data that wasn't used to build the model. The most straightforward way to do this is to exclude some data from model building process and then use these to test the model's accuracy on data it hasn't seen before. This data is called validation data
