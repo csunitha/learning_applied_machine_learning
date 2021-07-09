@@ -1,6 +1,26 @@
 # A repository to capture Applied ML learning journey 
 ## Daily Progress 
 
+### Day 7  
+** Kaggle - Machine Learning competition **  
+
+https://www.kaggle.com/c/home-data-for-ml-course  
+Competition is to predict the sales price for each house.  
+Data set used in Ames Housing dataset.   
+Submission evaluated on *Root-Mean-Squared-Error (RMSE)* value between the logarithm of the predicted value and the logarithm of the observed sales price. 
+
+Steps for arriving at submission file 
+- load data 
+- set target and prediction features 
+- split train and test data 
+- using decisiontree regressor get prediction 
+- measure root-mean-squared-error 
+- try for different features / different leaf node
+- with optimum feature / leaf node - run on full train data 
+- with optimum feature / leaf node - run on test data 
+- prepare data file for submission
+
+
 ### Day 6  
 **Coursera - Week1**  
 Unsupervised learning  

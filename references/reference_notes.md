@@ -62,6 +62,21 @@ scikit ref: `from sklearn.ensemble import RandomForestRegressor`
 #### Regression
 In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.
 
+#### Root-Mean-Squared-Error (RMSE)
+Root Mean Square Error (RMSE) is the standard deviation of the residuals (prediction errors). Residuals are a measure of how far from the regression line data points are; RMSE is a measure of how spread out these residuals are.  
+In other words, it tells you how concentrated the data is around the line of best fit. Root mean square error is commonly used in climatology, forecasting, and regression analysis to verify experimental results.
+
+Ref: https://www.statisticshowto.com/probability-and-statistics/regression-analysis/rmse-root-mean-square-error/ 
+
+#### Logarithm
+In its simplest form, a logarithm answers the question: *How many of one number do we multiply to get another number?*  
+We write "the number of 2s we need to multiply to get 8 is 3" as: log<sub>2</sub>(8) = 3
+
+Notice we are dealing with three numbers:  
+- The base: the number we are multiplying (a "2" in the example above)  
+- How often to use it in a multiplication (3 times, which is the logarithm)  
+- The number we want to get (an "8")  
+
 #### scikit-learn
 scikit-learn is easily the most popular library for modelling the types of data typically stored in DataFrames.
 
