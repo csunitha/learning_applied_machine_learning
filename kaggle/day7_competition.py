@@ -15,7 +15,9 @@ home_data = pd.read_csv(filepath)
 
 # set target and prediction features 
 y = home_data.SalePrice
-features = ['LotArea',  'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'YrSold', 'GrLivArea', 'TotRmsAbvGrd', 'GarageCars']
+# features = ['LotArea',  'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'YrSold', 'GrLivArea', 'TotRmsAbvGrd', 'GarageCars']
+features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
+
 X = home_data[features]
 
 # split train and test data 
@@ -30,7 +32,7 @@ def get_rmse(X_val, y_val, max_leaf_nodes):
     training_rmse = math.sqrt(training_mse)
     return training_rmse
 
-# try for different features / different leaf node
+# # try for different features / different leaf node
 # for max_leaf_nodes in [5, 50, 500, 650, 5000]:
 #     rmse = get_rmse(train_X, train_y, max_leaf_nodes)
 #     print("SPLIT TRAINING DATA max leaf nodes is {} and rmse is {}".format(max_leaf_nodes, rmse))
@@ -45,19 +47,11 @@ print("\nFULL TRAINING DATA max leaf nodes is {} and rmse is {}".format(best_lea
 
 # with optimum feature / leaf node - run on test data 
 test_file_path = "kaggle/input/day7_competition_ames_housing_dataset/test.csv"
-unfiltered_test_data = pd.read_csv(test_file_path)
-test_data = unfiltered_test_data.dropna(axis=0)
+test_data = pd.read_csv(test_file_path)
 model = RandomForestRegressor(max_leaf_nodes=best_leaf_node, random_state=1)
 model.fit(X, y)
-print(features)
 test_X = test_data[features]
 test_preds = model.predict(test_X)
 output = pd.DataFrame({'Id': test_data.Id,'SalePrice': test_preds})
-output.to_csv('submission.csv', index=False)
+output.to_csv('kaggle/output/day7_submission.csv', index=False)
 
-# output = pd.DataFrame({'Id': test_data.Id,
-#                        'SalePrice': test_preds})
-# output.to_csv('submission.csv', index=False)
-
-
-# prepare data file for submission

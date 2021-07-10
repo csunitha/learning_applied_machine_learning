@@ -20,4 +20,7 @@
 1. Deep Learning with Python
    Author: Francis Chollet
 
-
+## Other general references
+1. Seven steps of machine learning
+   https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e 
+2. 
